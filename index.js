@@ -202,7 +202,7 @@ bot.on('text', async (ctx) => {
 
 
                                                     caption: `
-<b>>-----------« تخفيض الاسعار 🎉 »>-----------</b>
+
 ✅ السعر :(${coinPi.info.points.discountPrice})
 
 🔹تخفيض لـ ${coinPi.info.normal.name}
