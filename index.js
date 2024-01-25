@@ -214,13 +214,13 @@ bot.on('text', async (ctx) => {
 
 <b>----------- | ✨ التخفيضات ✨ | -----------</b>
 
-🌟رابط تخفيض النقاط: ${coinPi.info.points.total}
+🌟رابط تخفيض النقاط:  Dz ${parseInt(coinPi.info.points.discountPrice.replace("US $", "") * 226)} / ${coinPi.info.points.discountPrice}
 ${coinPi.aff.points}
 
-🔥 رابط تخفيض السوبر: ${coinPi.info.super.price}
+🔥 رابط تخفيض السوبر: Dz ${parseInt(coinPi.info.super.price.replace("US $", "") * 226)} / ${coinPi.info.super.price}
 ${coinPi.aff.super}
 
-📌رابط العرض المحدود: ${coinPi.info.limited.price}
+📌رابط العرض المحدود: Dz ${parseInt(coinPi.info.limited.price.replace("US $", "") * 226)} / ${coinPi.info.limited.price}
 ${coinPi.aff.limited}
 <b>----------- | ✨ الكوبونات ✨ | -----------</b>
 ${couponList}
