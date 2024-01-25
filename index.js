@@ -19,7 +19,6 @@ app.use(express.json());
 app.use(bot.webhookCallback('/bot'))
 
 app.get('/', (req, res) => { res.sendStatus(200) });
-
 app.get('/ping', (req, res) => { res.status(200).json({ message: 'Ping successful' }); });
 
 function keepAppRunning() {
